@@ -21,7 +21,7 @@ def cinema_visit(
             product=customers_instances_list[i].food,
             customer=customers_instances_list[i]
         )
-    CinemaHall.movie_session(
+    cinema_hall.movie_session(
         movie_name=movie, customers=customers, cleaning_staff=cleaner
     )
     cleaner.clean_hall(hall_number)
